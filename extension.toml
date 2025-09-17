@@ -7,9 +7,8 @@ description = "Tempo choreographic programming language"
 repository = "https://github.com/tempo-lang/zed-tempo"
 
 [grammars.tempo]
-# repository = "file:///Users/viktorstrate/Cloud/SDU/PhD/repos/tree-sitter-tempo"
 repository = "https://github.com/tempo-lang/tree-sitter-tempo"
-rev = "597a1205a4112b19258a3903dc7316726e7b69b1"
+rev = "f64459a8a010aeffdf1a20339e22b0b3bb6cd579"
 
 [language_servers.tempo]
 name = "Tempo LSP"
