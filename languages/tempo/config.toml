@@ -1,0 +1,9 @@
+name = "Tempo"
+code_fence_block_name = "tempo"
+grammar = "tempo"
+path_suffixes = ["tempo"]
+line_comments = ["// "]
+block_comment = ["/* ", " */"]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+]
