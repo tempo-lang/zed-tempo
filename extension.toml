@@ -8,7 +8,7 @@ repository = "https://github.com/tempo-lang/zed-tempo"
 
 [grammars.tempo]
 repository = "https://github.com/tempo-lang/tree-sitter-tempo"
-rev = "f64459a8a010aeffdf1a20339e22b0b3bb6cd579"
+rev = "96d7a73f2dcfd6b1a4daab7ea864829f16ec548b"
 
 [language_servers.tempo]
 name = "Tempo LSP"

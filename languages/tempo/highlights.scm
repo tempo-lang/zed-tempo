@@ -1,14 +1,22 @@
 ; highlights.scm
 
 ; keywords
-"func" @keyword
+"func" @keyword.function
+"struct" @keyword
+"interface" @keyword
+"implements" @keyword
 "let" @keyword
-"return" @keyword
+"return" @keyword.return
 "await" @keyword
 "async" @keyword
+"while" @keyword.repeat
+"if" @keyword.conditional
 
 ; functions
 (function_signature name: (identifier) @function)
+
+; structs
+
 
 ; types
 (named_type (identifier) @type)
@@ -21,7 +29,7 @@
 
 ; literals
 (boolean_literal) @boolean
-(float_literal) @number
+(float_literal) @number.float
 (integer_literal) @number
 (string_literal) @string
 
